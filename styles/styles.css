@@ -2,7 +2,11 @@
 body{
     background: #FFFFFF;
 }
-
+header {
+    position: sticky;
+    height:80px;
+    top: 0px;
+}
 .container {
     width: 1312px;
     margin:auto;
@@ -11,10 +15,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height:50px;
-    margin-top: 10px;
-    position: sticky;
-    border: 2px solid red;
+    height:80px;
 }
 
 .nav-list {
@@ -166,7 +167,9 @@ body{
     width: 777px;
     height: 224px;
 }
-
+.bottom{
+    margin-top: 109px;
+}
 .bottom h2 {
     font-family: "Open Sans";
     font-size: 27px;
